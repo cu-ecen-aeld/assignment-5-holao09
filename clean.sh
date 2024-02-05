@@ -1,5 +1,2 @@
-#cd buildroot/
-echo "Start the distclean in buildroot"
-#use -C to specify directory
+#!/bin/bash
 make -C buildroot distclean
-echo "Distclean completed"
